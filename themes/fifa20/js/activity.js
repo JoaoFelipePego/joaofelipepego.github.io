@@ -137,9 +137,9 @@
 	$(document).ready(function() {
    
  
-	$.sticky('<div class="recent-activity-tab"><div class="recent-activity-user-wrapper"><img class="r-a-user-icon" src="img/player-icon.png"/><span class="activity-username">' + random_username() +'</span></div><div class="activity-generated-amount">'+random_amount() +'</div><div class="recent-activity-progress-wrapper"></div>');
+	$.sticky('<div class="recent-activity-tab"><div class="recent-activity-user-wrapper"><img class="r-a-user-icon" src="https://joaofelipepego.github.io/themes/fifa20/img/player-icon.png"/><span class="activity-username">' + random_username() +'</span></div><div class="activity-generated-amount">'+random_amount() +'</div><div class="recent-activity-progress-wrapper"></div>');
 	var call_recent_activity_tab = function() {
-		$.sticky('<div class="recent-activity-tab"><div class="recent-activity-user-wrapper"><img class="r-a-user-icon" src="img/player-icon.png"/><span class="activity-username">' + random_username() +'</span></div><div class="activity-generated-amount">'+random_amount() +'</div><div class="recent-activity-progress-wrapper"></div>');
+		$.sticky('<div class="recent-activity-tab"><div class="recent-activity-user-wrapper"><img class="r-a-user-icon" src="https://joaofelipepego.github.io/themes/fifa20/img/player-icon.png"/><span class="activity-username">' + random_username() +'</span></div><div class="activity-generated-amount">'+random_amount() +'</div><div class="recent-activity-progress-wrapper"></div>');
 	}
 	setInterval(call_recent_activity_tab, 11500);
 	
