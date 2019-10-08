@@ -102,9 +102,6 @@ $(document).ready(function() {
 	
 });
 
-
-
-}();
 //***************************
 // by Pego Apps Entertainment
 //**************************/
